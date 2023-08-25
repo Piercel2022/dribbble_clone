@@ -16,7 +16,7 @@
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
-    <%= f.password_field :password, autocomplete: "new-password" %>
+    <%= f.password_field :password, autocomplete: "new-password", class: "w-full" %>
   </div>
 
   <div class="block mb-1 text-2xl font-medium text-gray-900">
